@@ -1,3 +1,10 @@
+<!-- HTML -->
+<!-- nav bar -->
+<!-- cover header -->
+<!-- course categories -->
+<!-- review section -->
+<!-- footer -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,33 +12,36 @@
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lms</title>
+    <title>Coursera</title>
 </head>
 <body>
-    <div class="nav-bar">
+    <div class="navbar" >
         <div class="sub-nav1">
-            <img src="navlogo.svg" height="10px" >
-            <p style="margin: 5px;">Explore</p>
-            <input type="text" placeholder="Search.." >
-            <p>🔍</p>
-        </div>
-        <div class="sub-nav2">
-            <a href="">Online Degrees</a>
-            <a href="">Find your new Career</a>
-            <a href="">For Enterprise</a>
-            <a href="">For Universities</a>
-            <a href="">login</a>
+        <img style="margin: 5px;" src="navlogo.svg" height="30px">
+       <select  name="courses" id="">
+           <option value="Explore">Explore</option>
+           <option value="HTML">HTML</option>
+           <option value="python">python</option>
+           <option value="javascript">javascript</option>
+           <option value="React">React</option>
+           <option value="php">php</option>
+           <option value="wordpress">wordpress</option>
+       </select>
+       <input type="text" placeholder="Search..." >
+       <button>search</button>
+    </div>
 
-        </div>
+    <div class="sub-nav2">
+       <a href="#">Find a job</a>
+       <a href="">Start a new Career</a>
+       <a href="">Courses</a>
+       <a href="">login</a>
     </div>
-    <div class="cover">
-        <div class="cover-content">
-            <h1>Learn Without Limits</h1>
-            <p>Open your door to more with world-class Professional Certificates and degrees.</p>
-            <button>join in</button>
-            <button>join in</button>
-        </div>
-        <img src="coverimg1.png" alt="">
+
     </div>
+
+
+
+    
 </body>
 </html>
